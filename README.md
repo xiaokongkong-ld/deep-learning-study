@@ -1,0 +1,65 @@
+#### Welcome everyone! 
+
+##### 课程类型：
+- ```直播-Lecture```: 核心的知识点，由主讲老师来主导（除特殊情况）
+- ```直播-Review```: 代码实战、复习课等，会根据具体情况动态调整
+- ```直播-Paper```: 论文讲解、主题分享等
+
+注：内容可能会随着进度做一些必要的调整（但保证大纲上的都会涉及到）
+
+##### 社交账号：
+另外我们也新建了几个社交账号，会经常转发跟课程相关的其他资源，课程相关的通知，课程中有趣的事情等等
+
+- ``知乎-课程频道``： https://www.zhihu.com/column/c_1323221773764788224 
+- ``微博``： https://weibo.com/greedyai
+- ``Twitter``:  https://twitter.com/greedyai1
+- ``Facebook Page``:  https://www.facebook.com/aiml2020
+- ``文哲老师知乎``: https://www.zhihu.com/people/wenzhe-li
+
+
+
+|    日期  |    主题  | 老师  | 知识点详情 | 课件  |  相关阅读  |   其 他 | 作业 |
+|---------|---------|---------|---------|----------|---------|---------|---------|
+| PART 1<br>机器学习基础与凸优化基础|[课程文档](https://shimo.im/docs/tciXjue21rYPjV4o)<br>[官网地址](https://uai.greedyai.com/home)<br>[其他常用链接](https://shimo.im/sheets/KTa4XK385aE6jUXo/hrny6)|
+|Week0|||||||[]()|
+| 2020年12月20日<br>周日<br>上午十点半 |(直播-Lecture0)<br/>基础知识回顾|文哲老师|算法复杂度：时间复杂度、空间复杂度<br>最大似然估计、最大后验估计、过拟合<br>L1、L2正则、梯度下降法<br>生成模型与判别模型区别、对于向量、矩阵的导入计算|[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/lecture0%E5%BC%80%E7%8F%AD%E5%85%B8%E7%A4%BC.zip)<br/>[chat](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/ml4%E5%BC%80%E7%8F%AD%E5%85%B8%E7%A4%BCchat.txt)|[MLE与MAP](https://zhuanlan.zhihu.com/p/72370235)<br>[MatrixCookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)<br>[算法导论](https://cdn.manesht.ir/19908___Introduction%20to%20Algorithms.pdf)<br>[Convergence of GD](https://www.stat.cmu.edu/~ryantibs/convexopt-F13/scribes/lec6.pdf)<br>[L1,L2正则](https://towardsdatascience.com/intuitions-on-l1-and-l2-regularisation-235f2db4c261)<br>[Master's Theorem](https://www.csd.uwo.ca/~mmorenom/CS424/Ressources/master.pdf)|[自测题](https://zhuanlan.zhihu.com/p/337813901)<br><br>[自测题答案](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/wenzhe/solutions.pdf)|[]()|
+|Week1|||||||[]()|
+| 2020年12月27日<br>周日<br>上午九点半 |(直播-Lecture1)<br/>凸优化介绍|文哲老师|从优化角度理解机器学习<br>优化技术的重要性<br>常见的凸优化问题<br>线性规划以及Simplex Method<br>Stochastic LP<br>案例：运输问题讲解|[Lecture1](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/week1%20%20Lecture.zip)|[Linear Optimization(经典英文书籍)](http://athenasc.com/linoptbook.html)<br>[滴滴算法分析](https://blog.csdn.net/pdcfighting/article/details/102384066)<br>[Dynamic Pricing and Matching in Ride-Hailing Platforms](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3258234)<br>[A taxi order dispatch model based on combinatorial optimization](https://www.kdd.org/kdd2017/papers/view/a-taxi-order-dispatch-model-based-on-combinatorial-optimization)<br>[K-Means](https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a)<br>[Stochastic Programming](https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/TutorialSP.pdf)||Paper Reading: [From Word Embeddings To Document Distances](http://proceedings.mlr.press/v37/kusnerb15.html)<br>截止日期：21年1月8号（周五）<br><br>编写summary: <br><br>[如何编写paper summary(gitlab版本)](http://47.94.6.102/MLCamp4/course-info/wikis/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99paper-summary)<br>[如何编写paper summary(知乎版本，格式更好看一些)](https://zhuanlan.zhihu.com/p/339822958)<br><br>[假期小作业](https://zhuanlan.zhihu.com/p/340519981)<br>小作业不需要提交，但强烈建议自己做一遍，答案会在1月7日以PDF形式公布|
+| 2020年12月27日<br>周日<br>下午五点   |(直播-Review)  <br/>算法复杂度回顾：P和NP|阿勇老师|多项式复杂度与指数级复杂度<br>P，NP, NP Hard, NP完全问题之间的区别<br>常见的NP完全问题|[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/1227%20%20P-NP-NPC-NP%20Hard.pdf)|||[]()|
+| 2020年12月27日<br>周日<br>下午八点半 |(直播-Review)  <br/>线性规划：实战案例|苏老师|几个常见的线性回归问题以及求解<br>常用的LP求解工具|[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/1227%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92--%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.zip)|||[]()|
+| 2021年1月9日  <br>周六<br>上午九点半 |(直播-Review)  <br/>凸函数判定与矩阵求导|占老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/0109%E5%87%B8%E5%87%BD%E6%95%B0%E5%88%A4%E5%AE%9A%E4%B8%8E%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC.pptx)|||[]()|
+|Week2|||||||[]()|
+| 1月9日  <br>周六<br>下午八点半 |(直播-Paper)  <br/>论文解读：WMD by Killian|高老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/gao/week2/WMD.pdf)|||[]()|
+| 1月10日 <br>周日<br>上午九点半 |(直播-Lecture2<br/>判定凸函数 |文哲老师|凸集的判断<br>First-order Convexity<br>Second-order Convexity<br>Operations Preserve Convexity<br>二次规划问题（QP)<br>案例：最小二乘问题|[Lecture2](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/wenzhe/week2/slide_annotated.pdf)|[Duchi's slides](https://people.eecs.berkeley.edu/~jordan/courses/294-fall09/lectures/optimization/slides.pdf)<br>[Boyd's Opitmization Book Chapter2,3](https://web.stanford.edu/~boyd/cvxbook/)<br>[Tutorials on convex optimization](http://www.ece.ubc.ca/~janm/Papers_RG/Hindi_ConfAC_Jul04.pdf)<br>[Set Cover LP Relaxation (hard)](https://www.cs.cmu.edu/~anupamg/adv-approx/lecture2.pdf)||[假期小作业答案](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/homework/%E5%81%87%E6%9C%9F%E5%B0%8F%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88/homework_sol2.pdf)|
+| 1月10日 <br>周日<br>下午五点   |(直播-Review)  <br/>线性回归模型正则化:Elastic Net和Group Lasso|阿勇老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/ayong/week2/20200110%20ML4%20Elastic%20Net%20and%20Lasso.rar)|||[]()|
+|Week3|||||||[]()|
+| 1月16日 <br>周六<br>上午九点半 |(直播-Review)  <br/>半正定规划|占老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/zhan/week3/%E8%AF%BE%E4%BB%B6.rar)|||[]()|
+| 1月16日 <br>周六<br>下午八点半 |(直播-Review)  <br/>整数规划案例解析|高老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/gao/week3/Integer_programming.pptx)|||[代码](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/gao/week3/notebooks.rar)|
+| 1月17日 <br>周日<br>上午九点半 |(直播-Lecture3)<br/>凸优化问题 |文哲老师|常见的凸优化问题类别<br>半定规划问题（semi-definite programming）<br>几何规划问题（geometric programming)<br>非凸函数的优化<br>松弛化（relaxazation）<br>整数规划（integer programming)<br>案例：打车中的匹配问题|[Lecture3](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/wenzhe/week3/ML4LECTURE3.pdf)|[SDP tutorial](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/readings/MIT6_251JF09_SDP.pdf)<br>[GP tutorial](https://web.stanford.edu/~boyd/papers/pdf/gp_tutorial.pdf)<br>[Circuit Design via GP](https://web.stanford.edu/~boyd/papers/pdf/gp_digital_ckt.pdf)<br>[Aircraft Design Optimization](https://arc.aiaa.org/doi/abs/10.2514/1.J052732)<br>[Set Cover](https://people.seas.harvard.edu/~yaron/AM221-S16/lecture_notes/AM221_lecture21.pdf)||Paper Reading: [LMNN](https://papers.nips.cc/paper/2005/file/a7f592cef8b130a6967a90617db5681b-Paper.pdf) or [this link](https://dl.acm.org/doi/pdf/10.5555/1577069.1577078)<br> 截止日期：21年1月23号（周六）|
+|Week4|||||||[]()|
+| 1月23日 <br>周六<br>下午八点半 |(直播-Paper)  <br/>论文解读: LMNN |高老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/gao/week4/LMNN.pdf)|[阅读](https://jmlr.csail.mit.edu/papers/volume10/weinberger09a/weinberger09a.pdf)||[]()|
+| 1月24日 <br>周日<br>上午九点半 |(直播-Lecture4)<br/>优化与量化投资 |文哲老师|量化投资概述<br>如何阅读K线图<br>基于规则的量化策略<br>基于多因子模型的量化策略<br>基于机器学习模型的量化策略<br>基于LP， QP优化的量化策略<br>Efficient Frontier, Sharp Ratio<br>量化平台：量化策略编写实战<br>作业讲解<br>SDP|[Lecture4](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/wenzhe/week4/lecture3_extra.pdf)|[技术指标库](https://github.com/ta4j/ta4j/tree/master/ta4j-examples/src/main)<br>[常用的技术指标](http://www.southmoney.com/zhishi/gupiaogongshi/1782296.html?_t=1559129360)<br>[技术指标计算方法](https://zhuanlan.zhihu.com/p/55311293)<br>[果仁网智能选股](https://guorn.com/)<br>[问才选股](http://www.iwencai.com/unifiedwap/home/index)<br>[Big quant平台](https://bigquant.com/)<br>[QP for Portfolio Optimization Paper](https://arxiv.org/pdf/1105.3594.pdf)<br>[利用LSTM选股](https://blog.csdn.net/bigquant/article/details/85296844)<br>[CVX QP Solver](https://cvxopt.org/userguide/coneprog.html#quadratic-programming)<br>[Alpha101](https://arxiv.org/pdf/1601.00991.pdf)||[项目1作业](http://47.94.6.102/MLCamp4/project1)<br>截止日期：2021年2月21日，11:59PM(北京时间)|
+| 1月24日 <br>周日<br>下午五点   |(直播-Review)  <br/>Non-convex optimization问题的python实战|阿勇老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/ayong/week4/20200124%20ML4%20Set%20Cover%20Problem%E8%BF%91%E4%BC%BC%E7%AE%97%E6%B3%95.rar)||||
+|Week5|||||||[]()|
+| 1月30日 <br>周六<br>下午八点半 |(直播-Review)  <br/>损失函数的比较(Loss_functions) |高老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/gao/week5/Loss_functions.pdf)|[]()||[]()|
+| 1月31日 <br>周日<br>上午九点半 |(直播-Lecture5)<br/>对偶（Duality） |文哲老师|拉格朗日对偶函数<br>对偶的几何意义<br>Weak and Strong Duality<br>KKT条件<br>LP, QP的对偶问题<br>案例：经典机器学习模型的对偶推导及实现<br>对偶的其他应用|[Lecture5](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/wenzhe/week5/Lec4_Optimization.pdf)|[Duality from Boyd](https://web.stanford.edu/class/ee364a/lectures/duality.pdf)<br>[Duality and convex optimization ](https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/04b.convex-optimization.pdf)<br>||Paper Reading: [Whole Page Optimization with Global Constraints](https://assets.amazon.science/9f/38/a869f8ab40acbf22e9be6d76bbd3/whole-page-optimization-with-local-and-global-constraints.pdf) <br> 截止日期：21年2月20号（周六）|
+| 1月31日 <br>周日<br>下午五点   |(直播-Review)  <br/>SVM的primal和dual|占老师||[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/zhan/week5/SVM%E7%9A%84primal%E5%92%8Cdual.pdf)||||
+|Week6|||||||[]()|
+| 2月6日 <br>周六<br>下午八点半 |(直播-Review)  <br/>ADMM |阿勇老师|what is ADMM<br>its details<br>example1 + python coding<br>example2 + python coding|[课件](http://47.94.6.102/MLCamp4/course-info/blob/master/%E8%AF%BE%E4%BB%B6/ayong/week6/20210206%20ML4%20ADMM%E4%BA%A4%E6%9B%BF%E6%96%B9%E5%90%91%E4%B9%98%E5%AD%90%E6%B3%95.zip)|[]()||[]()|
+| 2月21日 <br>周日<br>上午九点半 |(直播-Lecture6)<br/>优化技术 |文哲老师|一阶与二阶优化技术<br>Gradient Descent<br>Subgradient Method<br>Proximal Gradient Descent<br>Projected Gradient Descent<br>Stochastic Gradient Descent与收敛<br>Newton's Method<br>Quasi-Newton's Method|[]()|||[]()|
+| 2月21日 <br>周日<br>下午五点 |(直播-Review)<br/>Stochastic Optimization |占老师|Comparision among ADAM, Adagrad, Adadelta.. |[]()||||
+| PART 2<br>图神经网络<br>（Graph Neural Network）|
+| 2月28日 <br>周几<br>几点 |(直播-Lecture7)<br/>数学基础 |杨老师|向量空间和图论基础<br>Inner Product, Hilbert Space<br>傅里叶变化<br>卷积操作<br>Time Domain and Spectral Domain<br>Eigenfunctions, Eigenvalue<br>Laplacian, Graph Laplacian|[]()|||[]()|
+| 3月7日  <br>周几<br>几点 |(直播-Lecture8)<br/>谱域（Spectral Domain）<br>的图神经网络 |杨老师|卷积神经网络回归<br>卷积操作的数学意义<br>Graph Convolution<br>Graph Filter<br>ChebNet<br>CayleyNet<br>GCN<br>Graph Pooling<br>案例：基于GCN的推荐|[]()|||[]()|
+| 3月14日 <br>周几<br>几点 |(直播-Lecture9)<br/>空间域（Spatial Domain）<br>的图神经网络 |杨老师|Spatial Convolution<br>Mixture Model Network (MoNet)<br>注意力机制（Attention Mechanism)<br>Graph Attention Network(GAT)<br>Edge Convolution<br>空间域与谱域的比较|[]()|||[]()|
+| 3月21日 <br>周几<br>几点 |(直播-Lecture10)<br/>图神经网络改进与<br>应用图神经网络改进与应用 |杨老师|拓展1: Relative Position与图神经网络<br>拓展2：融入Edge特征：Edge GCN<br>拓展3：图神经网络与知识图谱: Knowledge GCN<br>拓展4：姿势识别：ST-GCN<br>案例：基于图的文本分类<br>案例：基于图的阅读理解|[]()|||[]()|
+| PART 3<br>强化学习<br>（Reinforcement Learning）|
+| 4月11日 <br>周几<br>几点 |(直播-Lecture11)<br/>强化学习基础 |王老师|Markov Decision Process<br>Bellman Equation<br>三种方法：Value-Based, Policy-Based, Model-Based<br>Value-Based Approach: Q-learning<br>Policy-Based Approach: SARSA|[]()|||[]()|
+| 4月18日 <br>周几<br>几点 |(直播-Lecture12)<br/>Bandits |王老师|Multi-Armed bandits<br>Epsilon-Greedy<br>Upper Confidence Bound (UCB)<br>Contextual UCB: LinUCB & Kernel UCB<br>案例：Bandits在推荐系统的应用案例|[]()|||[]()|
+| 5月9日  <br>周几<br>几点 |(直播-Lecture13)<br/>路径规划 |王老师|Monte-Carlo Tree Search<br>N-step learning<br>Approximation and Reward Shaping<br>结合深度学习：Deep RL|[]()|||[]()|
+| 5月16日 <br>周几<br>几点 |(直播-Lecture14)<br/>自然语言处理中的RL |王老师|Seq2seq模型的问题<br>结合Evaluation Metric的自定义loss<br>结合aspect的自定义loss<br>不同RL模型与seq2seq模型的结合<br>案例：基于RL的文本生成|[]()|||[]()|
+| PART 4<br>贝叶斯方法<br>（Bayesian Methods）|
+| 5月30日 <br>周几<br>几点 |(直播-Lecture15)<br/>贝叶斯方法论简介 |文哲老师|贝叶斯定理<br>从MLE, MAP到贝叶斯估计<br>集成模型与贝叶斯方法比较<br>贝叶斯方法在计算上的Intractiblity<br>MCMC与变分法简介<br>贝叶斯线性回归<br>贝叶斯神经网络<br>案例：基于Bayesian-LSTM的命名实体识别|[]()|||[]()|
+| 6月7日  <br>周几<br>几点 |(直播-Lecture16)<br/>主题模型 |文哲老师|生成模型与判别模型<br>隐变量模型<br>贝叶斯中Prior的重要性<br>狄利克雷分布、多项式分布<br>LDA的生成过程<br>LDA中的参数与隐变量<br>Supervised LDA<br>Dynamic LDA<br>LDA的其他变种|[]()|||[]()|
+|6月14日 <br>周几<br>几点 |(直播-Lecture17)<br/>MCMC方法 |文哲老师|Detailed Balance<br>对于LDA的吉布斯采样<br>对于LDA的Collapsed吉布斯采样<br>Metropolis Hasting<br>Importance Sampling<br>Rejection Sampling<br>大规模分布式MCMC<br>大数据与SGLD<br>案例：基于分布式的LDA训练|[]()|||[]()|
+| 6月21日 <br>周几<br>几点 |(直播-Lecture18)<br/>变分法<br>（Variational Method) |文哲老师|变分法核心思想<br>KL散度与ELBo的推导<br>Mean-Field变分法<br>EM算法<br>LDA的变分法推导<br>数据与SVI<br>变分法与MCMC的比较<br>Variational Autoencoder<br>Probabilistic Programming<br>案例：使用概率编程工具来训练贝叶斯模型|[]()|||[]()|
